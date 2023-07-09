@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="movie-ratings-container">
+      <h1>Movie Ratings</h1>
+
+      <form id="movies-form">
+        <div class="form-item">
+          <label for="title">Title</label>
+          <input type="text" id="form-title" name="title" />
+        </div>
+
+        <div class="form-item">
+          <label for="rating">Rating</label>
+          <input type="text" id="form-rating" name="rating" />
+        </div>
+
+        <div class="form-item">
+          <button type="submit" id="submit-button">Submit</button>
+        </div>
+      </form>
+    </div>
+    <table class="results-table">
+      <thead class="results-header">
+        <th class="table-item" id="table-title">Title</th>
+        <th class="table-item" id="table-rating">Rating</th>
+        <th class="table-item" id="table-delete">Delete</th>
+      </thead>
+      <tbody id="table-body"></tbody>
+    </table>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="app.js"></script>
+  </body>
+</html>

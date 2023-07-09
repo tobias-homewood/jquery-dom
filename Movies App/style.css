@@ -1,0 +1,42 @@
+body {
+  background-color: papayawhip;
+}
+#movie-ratings-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#movies-form {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+h1 {
+  font-size: 50px;
+  color: rgb(17, 68, 90);
+  font-family: "Courier New", Courier, monospace;
+  text-decoration: underline;
+}
+
+.form-item {
+  padding: 20px;
+  display: inline-block;
+}
+label {
+  font-size: 20px;
+  padding: 20px;
+  color: rgb(17, 68, 90);
+}
+
+.results-table {
+  width: 100%;
+}
+
+.results-header {
+  background-color: rgb(204, 204, 238);
+}
+.table-item {
+  text-align: center;
+}
